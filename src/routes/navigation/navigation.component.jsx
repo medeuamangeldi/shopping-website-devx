@@ -28,7 +28,7 @@ const Navigation = observer(() => {
                     </Link>
 
                     <Link to='/sign-in' className="nav-link">
-                        Sign In
+                        Register
                     </Link>
                 </div>
             

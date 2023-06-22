@@ -1,0 +1,11 @@
+.signup-container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+
+.form-element {
+    margin: 5px 0;
+}

@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./routes/home/home.component";
 import ItemsList from "./components/ItemsList/itemsList.component";
 import Cart from "./components/Cart/cart.component";
+import SignUp from "./components/SignUp/signup.component";
 
 function App() {
   
@@ -18,12 +19,6 @@ function App() {
     )
   }
 
-  const SignIn = () => {
-    return (
-      <h1>SignIn page here heeey</h1>
-    )
-  }
-
   return (
     <Routes>
       <Route exact path="/" element={<Navigation/>}>
@@ -32,7 +27,7 @@ function App() {
         <Route path="cart" element={<Cart/>}/>
         <Route path="about" element={<About/>}/>
         <Route path="contact" element={<Contact/>}/>
-        <Route path="sign-in" element={<SignIn/>}/>  
+        <Route path="sign-in" element={<SignUp/>}/>  
       </Route>
     </Routes>
   );
